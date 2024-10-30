@@ -4,6 +4,8 @@
 
 解法はこちらを参照ください
 
+- [Report](./doc/README.md)
+
 ## Directory Layout
 
 ```
