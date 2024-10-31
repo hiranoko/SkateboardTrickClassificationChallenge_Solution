@@ -4,7 +4,7 @@
 
 解法はこちらを参照ください
 
-- [Report](./doc/README.md)
+- [Report](./doc/スケートボーダー.pdf)
 
 ## Directory Layout
 
@@ -47,7 +47,7 @@ conda activate signate
 
 ### Prepare dataset
 
-提供データを`directory layout`に沿って配置する。
+提供データを`directory layout`に沿って配置したあと、以下のコマンドを実行する。
 
 ```
 python 00_create_dataset.py
@@ -70,8 +70,9 @@ CLASSIFICATION2_TEST_CSV = Path(
 )
 ```
 
-
 ### Train and Inference
+
+学習と推論は、以下のコマンドを実行する。
 
 ```
 python 01_classification1.py
@@ -80,8 +81,8 @@ python 02_classification2.py
 
 ### Submit
 
-- データ1の提出は`output/classification1/submission.csv`を使用した
-- データ2の提出は`output/classification2/submission.csv`を使用した
+- データ1の提出は`output/classification1/encoder1d/submission.csv`を使用した
+- データ2の提出は`output/classification2/encoder1d/submission.csv`を使用した
 
 ## Environment
 
